@@ -1,0 +1,48 @@
+*{
+    margin:0;
+    padding:0;
+}
+center{
+    padding-top:20px
+
+}
+#search-p{
+    background-color:#7bd447;
+    height:200px;width:100%; 
+    border-radius:0 0 50% 50%;
+  /*  display:flex;*/
+}
+#search-p button img{
+    width: 80%;
+    height:80%
+}
+#search-p button{
+    width:40px;
+    border:none;
+    height:40px;
+    border-radius:50% 0 0 50%
+}
+#search-el{
+    padding-top: 30px;
+    display:flex;
+    justify-content: center;
+    align-items: center;
+}
+#search-bar{
+    height:40px;
+    width:450px;
+    border:none;
+    border-radius:0 20px 20px 0
+}
+#add-task{
+    width:100%;
+    height:80px;
+    position:fixed;
+    bottom:0;
+    border-radius:50px;
+    background-color: #7bd447;
+    border:none;
+}
+#add-task img{
+    height:70%;
+}
